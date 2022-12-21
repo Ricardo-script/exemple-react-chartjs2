@@ -16,7 +16,7 @@ yarn add chart.js react-chartjs-2
 
 ## Observações
 
-Para o uso dos rótulos é necessários também instalar os plugins: chartjs-plugin-labels
+Para o uso dos rótulos é necessários também instalar os plugins: chartjs-plugin-datalabels
 
 ## Instalação dos plugins de rótulos
 
