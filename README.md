@@ -60,6 +60,9 @@ const options = {
             datalabels: { // rótulos
                 display: true,
                 color: 'red',
+                formatter: (value, context) => {
+                    return value + '%'; //concatenar % ao value
+                }
             }
         },
     };
