@@ -57,11 +57,18 @@ const options = {
                 display: true,
                 text: 'Chart.js Bar Chart',
             },
-            datalabels: { // rótulos
+            datalabels: {
                 display: true,
-                color: 'red',
+                color: '#383131',
+                labels: {
+                    title: {
+                        font: {
+                            weight: 'bold'
+                        }
+                    },
+                },
                 formatter: (value, context) => {
-                    return value + '%'; //concatenar % ao value
+                    return value + '%'; //  concatenar % ao value
                 }
             }
         },
