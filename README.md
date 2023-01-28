@@ -49,6 +49,7 @@ ChartJS.register(ChartDataLabels);
 
 const options = {
         responsive: true,
+         maintainAspectRatio: false, // define o tamanho do chart referente o tamanho do elemento pai
         plugins: {
             legend: {
                 position: 'top'
